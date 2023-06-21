@@ -26,7 +26,6 @@ jobs:
           metric_frequency_thousands_of_second: 100
       - name: Build and Test
         continue-on-error: true
-        id: run-tests
         run: |
           pod install
       - name: Build and Test
