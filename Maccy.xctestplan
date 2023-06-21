@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "1220D663-2DA3-4FB9-9BD9-BF6A38865463",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Maccy.xcodeproj",
+      "identifier" : "DAEE38421E3DBEB100DD2966",
+      "name" : "Maccy"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:Maccy.xcodeproj",
+        "identifier" : "DA360DAF1E3DF137005C6F6B",
+        "name" : "MaccyTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Maccy.xcodeproj",
+        "identifier" : "DA0EE7B5204657830025FC60",
+        "name" : "MaccyUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
