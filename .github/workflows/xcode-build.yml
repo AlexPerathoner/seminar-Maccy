@@ -24,9 +24,6 @@ jobs:
         uses: AlexPerathoner/workflow-telemetry-action@v0.9
         with:
           metric_frequency_thousands_of_second: 100
-      - name: Pod insetall
-        run: |
-          pod install
       - name: Build and Test
         continue-on-error: true
         id: run-tests
