@@ -33,5 +33,5 @@ jobs:
           -scheme Maccy \
           -destination platform=macOS \
           -resultBundlePath TestResults \
-          -test-iterations 10 \
+          -test-iterations 25 \
           CODE_SIGNING_ALLOWED=NO || exit 1
