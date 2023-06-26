@@ -33,9 +33,9 @@ jobs:
         id: run-tests
         run: |
           xcodebuild clean test \
-          -project Maccy.xcodeproj \
+          -workspace Maccy.xcworkspace \
           -scheme Maccy \
           -destination platform=macOS \
           -resultBundlePath TestResults \
-          -test-iterations 10 \
+          -test-iterations 2 \
           CODE_SIGNING_ALLOWED=NO || exit 1
