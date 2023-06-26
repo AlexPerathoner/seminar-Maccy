@@ -41,8 +41,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Fuse: 48eaf66d0c407c7f8b0ddb168888dc4637e87f14
-  KeyboardShortcuts: fcd9e8c361c3f06f9c2f1d1680a0bb26941f990c
-  LoginServiceKit: 889b5d83f237eb22d93f22fb0a210a0a99d89510
+  KeyboardShortcuts: abb9b471d588e21b05c317c9a58263e77c6b865a
+  LoginServiceKit: 9a8b258c3111fa0d9585615052f778b08be92302
   Preferences: a5afbe0ae3e6bd886328b1960f4998e65d58f2c4
   Sauce: a4075a04b6041e7a0c992a952cc79f7a0ebdb8e3
   Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
